@@ -65,7 +65,7 @@ bot.on('message', message => {
   message.channel.send("Madison Is Cool");
   }
   else if(message.content == "crush") {
-  message.channel.send("Someone Has A Crush On Somebody HEHE --ship Foxy Scorpio");
+  message.channel.send("Someone Has A Crush On Somebody HEHE");
   }
   else if(message.content == "meme") {
   message.channel.send("Foxys Memes Are So Bad I Puked On My Razer BlackWidow, Fuck You Foxy!");
@@ -75,6 +75,9 @@ bot.on('message', message => {
   }
   else if(message.content == "foxes") {
   message.channel.send("Foxes Are Cool I Need One Right Now!");
+  }
+  else if(message.content == "Someone Has A Crush On Somebody HEHE") {
+  message.channel.send("--ship Foxy Scorpio");
   }
 });
 
