@@ -2,18 +2,22 @@ const Discord = require('discord.js');
 
 const bot = new Discord.Client();
 
-var facts = ["ג'סי הכוסון",
-             "ג'סי תעשה לי ילד",
-             "או אמ ג'י ג'סי תעשה אותי",
-             "*קולות אנדרהיל*",
-             "ג'סי שערות בחזה",
-             "ג'סי בוא למיטה"
+var facts = ["Me Big Brain",
+             "Go To Hell Satan!",
+             "STOP MENTIONING ME!",
+             "*-Mechanical Keyboard Sounds-*",
+             "You Cant Mention Me I Mention YOU! @here",
+             "screw you",
+             "Foxy is a little shit",
+             "Im The Best Guy In The Server!",
+             "Scorpio? More Like Scorpion HAHAHAHA!!!",
+             "Foxy? More Like Cocksy"
              ];
 
 bot.on('ready', () => {
 
     console.log('I am ready!');
-    bot.user.setActivity("ג'סי אנדרהיל", { type: 'PLAYING' });
+    bot.user.setActivity("I HATE YOU ALL!!!", { type: 'PLAYING' });
 
 });
 
