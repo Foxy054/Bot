@@ -73,6 +73,9 @@ bot.on('message', message => {
   else if(message.content.includes("foxes")) {
   message.channel.send("Foxes Are Cool I Need One Right Now!");
   }
+  else if(message.content.includes("kill")) {
+  message.channel.send("Dont Kill Him Its My Fault!");
+  }
 });
 
 bot.login(process.env.BOT_TOKEN);
