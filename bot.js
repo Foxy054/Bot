@@ -46,6 +46,36 @@ bot.on('message', message => {
   else if(message.content == "me big brain") {
   message.channel.send("No You Small Brain Foxy, Im The Big Brain!");
   }
+  else if(message.content == "later") {
+  message.channel.send("There Is No Later Its Today!!!");
+  }
+  else if(message.content == "beat") {
+  message.channel.send("Stop Scorpio Bad No Beating Foxy");
+  }
+  else if(message.content == "minecraft") {
+  message.channel.send("Is A Nice Game");
+  }
+  else if(message.content == "youtube") {
+  message.channel.send("HEHE Scorpio Leaving Foxy");
+  }
+  else if(message.content == "Foxy") {
+  message.channel.send("Foxy Is Probably Crying In An Allyway Or Something, I Dont Care!");
+  }
+  else if(message.content == "scorpio") {
+  message.channel.send("Madison Is Cool");
+  }
+  else if(message.content == "crush") {
+  message.channel.send("Someone Has A Crush On Somebody HEHE --ship Foxy Scorpio");
+  }
+  else if(message.content == "meme") {
+  message.channel.send("Yea We Need Some Memes! Dank Memer pls meme");
+  }
+  else if(message.content == "cute") {
+  message.channel.send("You Want Some Cuteness? Well There Ya go! pls aww");
+  }
+  else if(message.content == "foxes") {
+  message.channel.send("Foxes Are Cool I Need One Right Now! pls foxxy");
+  }
 });
 
 bot.login(process.env.BOT_TOKEN);
