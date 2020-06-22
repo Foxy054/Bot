@@ -73,6 +73,9 @@ bot.on('message', message => {
   else if(message.content.includes("kill")) {
   message.channel.send("Dont Kill Him Its My Fault!");
   }
+  else if(message.content.includes("XD")) {
+  message.channel.send("You Are Laughing With Me Or Because Of Me?");
+  }
 });
 
 bot.login(process.env.BOT_TOKEN);
