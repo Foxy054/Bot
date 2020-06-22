@@ -71,10 +71,10 @@ bot.on('message', message => {
   message.channel.send("Yea We Need Some Memes! Dank Memer pls meme");
   }
   else if(message.content == "cute") {
-  message.channel.send("You Want Some Cuteness? Well There Ya go! pls aww");
+  message.channel.send("Who You Callin Cute?");
   }
   else if(message.content == "foxes") {
-  message.channel.send("Foxes Are Cool I Need One Right Now! pls foxxy");
+  message.channel.send("Foxes Are Cool I Need One Right Now!");
   }
 });
 
