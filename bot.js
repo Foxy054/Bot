@@ -52,7 +52,7 @@ bot.on('message', message => {
   else if(message.content.includes("youtube")) {
   message.channel.send("HEHE Scorpio Leaving Foxy");
   }
-  else if(message.content.includes("foxy")) {
+  else if(message.content.includes("Foxy")) {
   message.channel.send("Foxy Is Probably Crying In An Allyway Or Something, I Dont Care!");
   }
   else if(message.content.includes("scorpio")) {
