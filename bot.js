@@ -28,9 +28,6 @@ bot.on('message', message => {
   var fact = Math.floor(Math.random() * facts.length);
   message.channel.send(facts[fact]);
   }
- else if(message.content.includes("or")) {
-  message.channel.send("Or What?");
-  }
   else if(message.content.includes("madison")) {
   message.channel.send("Nice Name");
   }
