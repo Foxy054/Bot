@@ -31,19 +31,19 @@ bot.on('message', message => {
   else if(message.content == "or") {
   message.channel.send("Or What?");
   }
-  else if(message.content == "Madison") {
+  else if(message.content == "madison") {
   message.channel.send("Nice Name");
   }
-  else if(message.content == "Fox") {
+  else if(message.content == "fox") {
   message.channel.send("Where Fox?!? I Wanna Pet Him");
   }
-  else if(message.content == "Wolfie") {
+  else if(message.content == "wolfie") {
   message.channel.send("What Do You Want?");
   }
   else if(message.content == "שלום") {
   message.channel.send("Translation Please... Alien");
   }
-  else if(message.content == "Me Big Brain") {
+  else if(message.content == "me big brain") {
   message.channel.send("No You Small Brain Foxy, Im The Big Brain!");
   }
 });
