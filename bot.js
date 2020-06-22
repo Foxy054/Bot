@@ -68,7 +68,7 @@ bot.on('message', message => {
   message.channel.send("Someone Has A Crush On Somebody HEHE --ship Foxy Scorpio");
   }
   else if(message.content == "meme") {
-  message.channel.send("pls meme");
+  message.channel.send("Foxys Memes Are So Bad I Puked On My Razer BlackWidow, Fuck You Foxy!");
   }
   else if(message.content == "cute") {
   message.channel.send("Who You Callin Cute?");
