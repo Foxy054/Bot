@@ -37,10 +37,10 @@ bot.on('message', message => {
   else if(message.content.includes("fox")) {
   message.channel.send("Where Fox?!? I Wanna Pet Him");
   }
-  else if(message.content == "wolfie")) {
+  else if(message.content == "wolfie") {
   message.channel.send("What Do You Want?");
   }
-  else if(message.content == "שלום")) {
+  else if(message.content == "שלום") {
   message.channel.send("Translation Please... Alien");
   }
   else if(message.content.includes("me big brain")) {
