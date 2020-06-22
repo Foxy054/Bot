@@ -7,7 +7,7 @@ var facts = ["Me Big Brain",
              "STOP MENTIONING ME!",
              "*-Mechanical Keyboard Sounds-*",
              "You Cant Mention Me I Mention YOU! @here",
-             "screw you",
+             "Screw You",
              "Foxy is a little shit",
              "Im The Best Guy In The Server!",
              "Foxy? More Like Cocksy"
