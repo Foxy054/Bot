@@ -23,8 +23,9 @@ bot.on('ready', () => {
  
 
 bot.on('message', message => {
-
-  if(message.isMemberMentioned(bot.user)) {
+  
+  if(message.author.bot) return;
+  else if(message.isMemberMentioned(bot.user)) {
   var fact = Math.floor(Math.random() * facts.length);
   message.channel.send(facts[fact]);
   }
