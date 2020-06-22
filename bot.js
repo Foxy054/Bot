@@ -10,7 +10,6 @@ var facts = ["Me Big Brain",
              "screw you",
              "Foxy is a little shit",
              "Im The Best Guy In The Server!",
-             "Scorpio? More Like Scorpion HAHAHAHA!!!",
              "Foxy? More Like Cocksy"
              ];
 
@@ -33,9 +32,20 @@ bot.on('message', message => {
   message.channel.send("Or What?");
   }
   else if(message.content == "Madison") {
-  message.channel.send("Thats You're Real Name?!? HAHHAHAHAH");
+  message.channel.send("Nice Name");
   }
-  
+  else if(message.content == "Fox") {
+  message.channel.send("Where Fox?!? I Wanna Pet Him");
+  }
+  else if(message.content == "Wolfie") {
+  message.channel.send("What Do You Want?");
+  }
+  else if(message.content == "שלום") {
+  message.channel.send("Translation Please... Alien");
+  }
+  else if(message.content == "Me Big Brain") {
+  message.channel.send("No You Small Brain Foxy, Im The Big Brain!");
+  }
 });
 
 bot.login(process.env.BOT_TOKEN);
