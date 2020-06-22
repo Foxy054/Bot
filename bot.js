@@ -68,7 +68,7 @@ bot.on('message', message => {
   message.channel.send("Someone Has A Crush On Somebody HEHE --ship Foxy Scorpio");
   }
   else if(message.content == "meme") {
-  message.channel.send("Yea We Need Some Memes! Dank Memer pls meme");
+  message.channel.send("pls meme");
   }
   else if(message.content == "cute") {
   message.channel.send("Who You Callin Cute?");
