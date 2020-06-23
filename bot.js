@@ -50,7 +50,7 @@ bot.on('message', message => {
   else if(message.content.includes("minecraft")) {
   message.channel.send("Is A Nice Game");
   }
-  else if(message.content.includes("youtube")) {
+  if(message.content == "youtube" && message.author.id == "682616027582169138") {
   message.channel.send("HEHE Scorpio Leaving Foxy");
   }
   else if(message.content.includes("Foxy")) {
