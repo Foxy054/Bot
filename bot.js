@@ -89,14 +89,14 @@ bot.on('message', message => {
   else if(message.content == "No.") {
   message.channel.send("https://cdn.discordapp.com/attachments/712832607955714111/724917812832894996/IMG_20200623_120448.jpg");
   }
-  else if(message.context.includes("ttyl")) {
-  message.channel.send("Yes!! Leave That Weirdo!");
+  else if(message.content.includes("ttyl")) {
+  message.channel.send("Yes, Leave That Weirdo!");
   }
-  else if(message.context.includes("asshole")) {
-  message.channel.send("No Fuck You!");
+  else if(message.content.includes("asshole")) {
+  message.channel.send("NO FUCK YOU!");
   }
-  else if(message.context.includes("fuck")) {
-  message.channel.send("Fuck You!");
+  else if(message.content.includes("fuck you")) {
+  message.channel.send("Fuck You Too Then!");
   }
 });
 
