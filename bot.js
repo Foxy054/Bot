@@ -81,7 +81,7 @@ bot.on('message', message => {
   message.channel.send("You Are Laughing With Me Or Because Of Me?");
   }
   else if(message.content == "because of you") {
-  message.channel.send("Well Fuck You Then!);
+  message.channel.send("Well Fuck You Then!");
   }
 });
 
