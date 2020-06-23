@@ -38,13 +38,13 @@ bot.on('message', message => {
   else if(message.content == "שלום") {
   message.channel.send("Translation Please... Alien");
   }
-  if(message.content == "me big brain" && message.author.id == "366890040153866251")
+  if(message.content == "me big brain" && message.author.id == "366890040153866251") {
   message.channel.send("No You Small Brain Foxy, Im The Big Brain!");
   }
   else if(message.content.includes("later")) {
   message.channel.send("There Is No Later Its Today!!!");
   }
-  if(message.content == "beat" && message.author.id == "682616027582169138")
+  if{(message.content == "beat" && message.author.id == "682616027582169138") {
   message.channel.send("Stop Scorpio Bad No Beating Foxy");
   }
   else if(message.content.includes("minecraft")) {
