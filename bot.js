@@ -71,6 +71,9 @@ bot.on('message', message => {
   else if(message.content.includes("foxes")) {
   message.channel.send("Foxes Are Cool I Need One Right Now!");
   }
+  else if(message.content == "with you") {
+  message.channel.send("HEHE Laugh Laugh Lmao");
+  }
   else if(message.content.includes("kill")) {
   message.channel.send("Dont Kill Him Its My Fault!");
   }
@@ -79,9 +82,6 @@ bot.on('message', message => {
   }
   else if(message.content == "because of you") {
   message.channel.send("Well Fuck You Then!);
-  }
-  else if(message.content == "with you") {
-  message.channel.send("HEHE Laugh Laugh Lmao");
   }
 });
 
