@@ -38,7 +38,7 @@ bot.on('message', message => {
   else if(message.content == "שלום") {
   message.channel.send("Translation Please... Alien");
   }
-  if(message.content == "beat" && message.author.id == "366890040153866251")
+  if(message.content == "me big brain" && message.author.id == "366890040153866251")
   message.channel.send("No You Small Brain Foxy, Im The Big Brain!");
   }
   else if(message.content.includes("later")) {
