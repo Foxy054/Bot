@@ -86,7 +86,7 @@ bot.on('message', message => {
   else if(message.content == "wanna play roblox?") {
   message.channel.send("https://cdn.discordapp.com/attachments/712832607955714111/724912999999078400/IMG_20200620_184823.jpg https://media.discordapp.net/attachments/712832607955714111/724913000297005166/IMG_20200620_184838.jpg");
   }
-  else if(message.content == "...No.") {
+  else if(message.content == "No.") {
   message.channel.send("https://cdn.discordapp.com/attachments/712832607955714111/724917812832894996/IMG_20200623_120448.jpg");
   }
 });
