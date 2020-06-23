@@ -77,6 +77,12 @@ bot.on('message', message => {
   else if(message.content.includes("XD")) {
   message.channel.send("You Are Laughing With Me Or Because Of Me?");
   }
+  else if(message.content == "because of you") {
+  message.channel.send("Well Fuck You Then!);
+  }
+  else if(message.content == "with you") {
+  message.channel.send("HEHE Laugh Laugh Lmao");
+  }
 });
 
 bot.login(process.env.BOT_TOKEN);
