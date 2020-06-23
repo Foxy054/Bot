@@ -84,7 +84,7 @@ bot.on('message', message => {
   message.channel.send("Well Fuck You Then!");
   }
   else if(message.content == "wanna play roblox?") {
-  message.channel.send("https://cdn.discordapp.com/attachments/712832607955714111/724912999999078400/IMG_20200620_184823.jpg https://cdn.discordapp.com/attachments/712832607955714111/724912999999078400/IMG_20200620_184823.jpg");
+  message.channel.send("https://cdn.discordapp.com/attachments/712832607955714111/724912999999078400/IMG_20200620_184823.jpg https://media.discordapp.net/attachments/712832607955714111/724913000297005166/IMG_20200620_184838.jpg");
   }
 });
 
