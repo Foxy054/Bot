@@ -83,6 +83,9 @@ bot.on('message', message => {
   else if(message.content == "because of you") {
   message.channel.send("Well Fuck You Then!");
   }
+  else if(message.content == "wanna play roblox?") {
+  message.channel.send("https://cdn.discordapp.com/attachments/712832607955714111/724912999999078400/IMG_20200620_184823.jpg https://cdn.discordapp.com/attachments/712832607955714111/724912999999078400/IMG_20200620_184823.jpg");
+  }
 });
 
 bot.login(process.env.BOT_TOKEN);
